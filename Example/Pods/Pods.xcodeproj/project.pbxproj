@@ -7,26 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0268669EF4435166100C0056FCE13314 /* snappy-internal.h in Headers */ = {isa = PBXBuildFile; fileRef = EB0E07731C898AEA850E4C2F2CD70890 /* snappy-internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		03600FEE39E67B83D7B96B978B8D72C6 /* Pods-BTSnappy_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A2B52612235C9AEACB646D41CDBAE6 /* Pods-BTSnappy_Example-dummy.m */; };
-		03900D11695DBEE7DCA30D0B98DA8DAC /* snappy.h in Headers */ = {isa = PBXBuildFile; fileRef = A83D407273E8261385A1165B90E204D3 /* snappy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17EB3E27D95F3AD6C60E2448D95A73D0 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 595D0AB769C87A52AF09A3489089F87D /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BB33B8CD4792799469E0E84376865F1 /* snappy-stubs-internal.h in Headers */ = {isa = PBXBuildFile; fileRef = BC387E7EF3285A36DA34F178D9C51237 /* snappy-stubs-internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		41055EC8CB661A953FC89AB734585930 /* snappy-c.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0FC8C8D09B0D68F3939A80A2930FEC /* snappy-c.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		41D16F1A16DEF89B56F77ADD303DF51E /* snappy.cc in Sources */ = {isa = PBXBuildFile; fileRef = 13C66F95E50ED0EBA53DBE79AB96F6CB /* snappy.cc */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		683ADEDA3133145639ACF1E6B6CB6DA3 /* snappy-stubs-public.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C82EF45BF1503AF87C0AB1735CBA33 /* snappy-stubs-public.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F4E26D45C4A142F5EA16DE62F2FEEC1 /* Snappy-ObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 41A6C3953704AF0E71B4EA9D8E948800 /* Snappy-ObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8858BC5C5847C986969C49538A696672 /* snappy-sinksource.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1DDD812B769F5F7C41E681F587C4214B /* snappy-sinksource.cc */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		980E38C70453EC25133F372229854497 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9AFF38278361344C3539E693FBF20F00 /* snappy-c.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8FC0DC81D899BC5D05B42B8BE2E516BF /* snappy-c.cc */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9CA3F721956BD87FDDE9A6A831D18D5A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C31FA29D692D33368C5C5D268AB85D0 /* ReplaceMe.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		236FFE921C98C39BB92B4A7A142434C6 /* BTSnappy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 292921E22A32FCCFDC46C35951E501B6 /* BTSnappy-dummy.m */; };
+		2790DA17F9982DB41D766E0600335B87 /* verify.c in Sources */ = {isa = PBXBuildFile; fileRef = 62F70F810D4B0F895FA8F291B5D43AFE /* verify.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3161780C80DBE82BC356A6F367C2DA59 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA2A384216CD862C15F96D53C491D2 /* ReplaceMe.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		494B80A84DD4D8EEA94FD3B344F4B6F5 /* snappy-int.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE46521CA470FE6D7C6CAE471E41DD2 /* snappy-int.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D4CA782EB87EC828542D32DBE269B8B /* fuzzer.c in Sources */ = {isa = PBXBuildFile; fileRef = 50A59E5AB6C5F102517FBCC8DF50D399 /* fuzzer.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		562EEE3BA0536A1F111B57DD1BCF8CCE /* scmd.c in Sources */ = {isa = PBXBuildFile; fileRef = E0F79C4BD2315842B8ECDD42F587758F /* scmd.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		590692FF633318AAEAD29A8F41B54AB8 /* sgverify.c in Sources */ = {isa = PBXBuildFile; fileRef = 52C3230EFEE77C0C94C26B3A6A8FE217 /* sgverify.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5A8DC808FD67D36EE276344E393F053E /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = B19A2958E02BF0C3A8A4891E2BCA703F /* util.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5CEA27733DBA8D8514D38AA415B4D9A0 /* Snappy-ObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B66B39FDC98F47282943197A157658D /* Snappy-ObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D9A4C17C0E984D835EBA2DB1619C027 /* map.c in Sources */ = {isa = PBXBuildFile; fileRef = 75555E511F52CFE0826C5AEC943451DF /* map.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		83D32F835D06C17A23A072ABBA745367 /* snappy.c in Sources */ = {isa = PBXBuildFile; fileRef = 77C656BE832E452BE0E47D18DFF414CB /* snappy.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		89FA9FCF7A0BE8E52D83A1C92F22D355 /* BTSnappy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E367E298548471818F0D45A246F612A /* BTSnappy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		970B4AE25107880A09770B80ECBBB74A /* compat.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D2C48F92AD297C2A2C6C39FAF1C6BF /* compat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DAF21003FDE43616F475F976FC4B24D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A1673886CDA4AE7D386FD9142E110F04 /* Snappy-ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0067DE9A6B2FBFB2D3AFC1B6071D01BD /* Snappy-ObjC.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		BC85478E200635B51A32FB531A4BBD96 /* snappy-stubs-internal.cc in Sources */ = {isa = PBXBuildFile; fileRef = 23E46E09BE7A85DA20144EF1AB67BA35 /* snappy-stubs-internal.cc */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C524574D1F113D192471075EBBF6DDF8 /* BTSnappy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F01D9DA0919DC25BAFB49E7608C863 /* BTSnappy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABE0F6417AF3EE9585789AB3EB9B549C /* map.h in Headers */ = {isa = PBXBuildFile; fileRef = 957532BA30CACD789704B5D2178161E3 /* map.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF237090B6F55C949B48E31D4D1FBE3 /* snappy.h in Headers */ = {isa = PBXBuildFile; fileRef = D64D23B980A678FEC865EDF5A275E049 /* snappy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9E365E5283A8C18BD5696C1A8FCBD5C /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = 89F45088CB07833DEE11AE867AA4F345 /* util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C33C2B95CCC5903EBFA41C02EBA646F5 /* glue.c in Sources */ = {isa = PBXBuildFile; fileRef = C0DD155A3D0DEEB9FA56DE881297AC66 /* glue.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		C5268A33B0B571624BAF46067BF0ADC7 /* Pods-BTSnappy_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 248A5109880C6F2E620A0BA8B342CF33 /* Pods-BTSnappy_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3D499BE3B6594F1DDEA3A3795D3A142 /* BTSnappy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0B068DDA189F863DADEC61F2EA57FE /* BTSnappy-dummy.m */; };
-		E9D3FA1F8DF19475D662C0A5F55B8402 /* snappy-sinksource.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A1CEA585BB419652622799B4AC8803E /* snappy-sinksource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C56B4C274663F4C8655AD404906C6692 /* Snappy-ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EE7F72752F9F455246109AAD3DB8C1 /* Snappy-ObjC.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D947807B926A05EFE20A2595081FF355 /* bench.c in Sources */ = {isa = PBXBuildFile; fileRef = DA1C24D10203C42044D59E9F7B285032 /* bench.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F34E82FBCC6345586B62EF386703BC33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,59 +43,62 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0067DE9A6B2FBFB2D3AFC1B6071D01BD /* Snappy-ObjC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Snappy-ObjC.m"; sourceTree = "<group>"; };
+		04AA2A384216CD862C15F96D53C491D2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		0AAA806E44977BA49AA24E51D7B6DE1A /* Pods-BTSnappy_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTSnappy_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0AE2020A236C3C240AF85A57055FF008 /* Pods-BTSnappy_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTSnappy_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		13C66F95E50ED0EBA53DBE79AB96F6CB /* snappy.cc */ = {isa = PBXFileReference; includeInIndex = 1; path = snappy.cc; sourceTree = "<group>"; };
-		1A1CEA585BB419652622799B4AC8803E /* snappy-sinksource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "snappy-sinksource.h"; sourceTree = "<group>"; };
-		1C31FA29D692D33368C5C5D268AB85D0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		1DDD812B769F5F7C41E681F587C4214B /* snappy-sinksource.cc */ = {isa = PBXFileReference; includeInIndex = 1; path = "snappy-sinksource.cc"; sourceTree = "<group>"; };
+		1FBEED8EDE788EA4A6AF330FA8358C86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		200CD38794F471FF394607D61C8C7CE9 /* Pods_BTSnappy_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BTSnappy_Example.framework; path = "Pods-BTSnappy_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		23E46E09BE7A85DA20144EF1AB67BA35 /* snappy-stubs-internal.cc */ = {isa = PBXFileReference; includeInIndex = 1; path = "snappy-stubs-internal.cc"; sourceTree = "<group>"; };
 		248A5109880C6F2E620A0BA8B342CF33 /* Pods-BTSnappy_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTSnappy_Example-umbrella.h"; sourceTree = "<group>"; };
-		27F01D9DA0919DC25BAFB49E7608C863 /* BTSnappy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTSnappy-umbrella.h"; sourceTree = "<group>"; };
-		2F7EB0C1627140FF083DAA863F4AB244 /* BTSnappy.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BTSnappy.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		292921E22A32FCCFDC46C35951E501B6 /* BTSnappy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTSnappy-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		41A6C3953704AF0E71B4EA9D8E948800 /* Snappy-ObjC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Snappy-ObjC.h"; sourceTree = "<group>"; };
-		4E41EF8C095ED01AF9E83A06EB6DEA83 /* BTSnappy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTSnappy-prefix.pch"; sourceTree = "<group>"; };
-		595D0AB769C87A52AF09A3489089F87D /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		32121FD0508053582412F40B2BB79056 /* BTSnappy.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BTSnappy.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4E367E298548471818F0D45A246F612A /* BTSnappy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTSnappy-umbrella.h"; sourceTree = "<group>"; };
+		50A59E5AB6C5F102517FBCC8DF50D399 /* fuzzer.c */ = {isa = PBXFileReference; includeInIndex = 1; path = fuzzer.c; sourceTree = "<group>"; };
+		52C3230EFEE77C0C94C26B3A6A8FE217 /* sgverify.c */ = {isa = PBXFileReference; includeInIndex = 1; path = sgverify.c; sourceTree = "<group>"; };
+		62F70F810D4B0F895FA8F291B5D43AFE /* verify.c */ = {isa = PBXFileReference; includeInIndex = 1; path = verify.c; sourceTree = "<group>"; };
 		67A7C2124FE20A4ABB3556D8FEE1BA44 /* Pods-BTSnappy_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BTSnappy_Example.modulemap"; sourceTree = "<group>"; };
-		68E07A9CABB755EDCA62820322AE9A3F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6C04889D6AA467580D229EEF06EEF381 /* BTSnappy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTSnappy-prefix.pch"; sourceTree = "<group>"; };
 		717EE4BE664D3489EA60B4CF921B3F4E /* Pods-BTSnappy_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTSnappy_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7B0B068DDA189F863DADEC61F2EA57FE /* BTSnappy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTSnappy-dummy.m"; sourceTree = "<group>"; };
-		8052EBC5119732E9BF6672E780344E3A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		75555E511F52CFE0826C5AEC943451DF /* map.c */ = {isa = PBXFileReference; includeInIndex = 1; path = map.c; sourceTree = "<group>"; };
+		77C656BE832E452BE0E47D18DFF414CB /* snappy.c */ = {isa = PBXFileReference; includeInIndex = 1; path = snappy.c; sourceTree = "<group>"; };
 		8382C61BB053C331D82EF887148F675F /* Pods-BTSnappy_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTSnappy_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89F45088CB07833DEE11AE867AA4F345 /* util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
 		89F8D2B5DE11692799E0A6DDDCA8364A /* BTSnappy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BTSnappy.framework; path = BTSnappy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FC0DC81D899BC5D05B42B8BE2E516BF /* snappy-c.cc */ = {isa = PBXFileReference; includeInIndex = 1; path = "snappy-c.cc"; sourceTree = "<group>"; };
+		8B66B39FDC98F47282943197A157658D /* Snappy-ObjC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Snappy-ObjC.h"; sourceTree = "<group>"; };
 		92B233A535D773EF95ACB3B1AB6C9BA8 /* Pods-BTSnappy_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTSnappy_Example-frameworks.sh"; sourceTree = "<group>"; };
 		94A2B52612235C9AEACB646D41CDBAE6 /* Pods-BTSnappy_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTSnappy_Example-dummy.m"; sourceTree = "<group>"; };
+		957532BA30CACD789704B5D2178161E3 /* map.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
 		959583FB314FC95607BE631AB16104BB /* Pods-BTSnappy_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTSnappy_Example-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7C82EF45BF1503AF87C0AB1735CBA33 /* snappy-stubs-public.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "snappy-stubs-public.h"; sourceTree = "<group>"; };
-		A83D407273E8261385A1165B90E204D3 /* snappy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = snappy.h; sourceTree = "<group>"; };
-		B2AF065401E63129048D158F6D9798C1 /* BTSnappy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BTSnappy-Info.plist"; sourceTree = "<group>"; };
-		BC387E7EF3285A36DA34F178D9C51237 /* snappy-stubs-internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "snappy-stubs-internal.h"; sourceTree = "<group>"; };
-		C69117973D47F174D131F4A9ADDE0C88 /* BTSnappy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTSnappy.release.xcconfig; sourceTree = "<group>"; };
-		CD0FC8C8D09B0D68F3939A80A2930FEC /* snappy-c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "snappy-c.h"; sourceTree = "<group>"; };
-		D5CF23C22982B3C79A35B3D418559100 /* BTSnappy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BTSnappy.modulemap; sourceTree = "<group>"; };
-		D69248FDBB73DFC89C170F8A2AE713FF /* BTSnappy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTSnappy.debug.xcconfig; sourceTree = "<group>"; };
-		EB0E07731C898AEA850E4C2F2CD70890 /* snappy-internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "snappy-internal.h"; sourceTree = "<group>"; };
+		A4EE7F72752F9F455246109AAD3DB8C1 /* Snappy-ObjC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Snappy-ObjC.m"; sourceTree = "<group>"; };
+		AFED20EB4AD3842173AE23B7987F1C09 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B19A2958E02BF0C3A8A4891E2BCA703F /* util.c */ = {isa = PBXFileReference; includeInIndex = 1; path = util.c; sourceTree = "<group>"; };
+		C0DD155A3D0DEEB9FA56DE881297AC66 /* glue.c */ = {isa = PBXFileReference; includeInIndex = 1; path = glue.c; sourceTree = "<group>"; };
+		C8D2C48F92AD297C2A2C6C39FAF1C6BF /* compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = compat.h; sourceTree = "<group>"; };
+		CC36D9D67F1EACA3E9E5E05B97951A5D /* BTSnappy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BTSnappy.modulemap; sourceTree = "<group>"; };
+		D64D23B980A678FEC865EDF5A275E049 /* snappy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = snappy.h; sourceTree = "<group>"; };
+		DA1C24D10203C42044D59E9F7B285032 /* bench.c */ = {isa = PBXFileReference; includeInIndex = 1; path = bench.c; sourceTree = "<group>"; };
+		DFE46521CA470FE6D7C6CAE471E41DD2 /* snappy-int.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "snappy-int.h"; sourceTree = "<group>"; };
+		E0F79C4BD2315842B8ECDD42F587758F /* scmd.c */ = {isa = PBXFileReference; includeInIndex = 1; path = scmd.c; sourceTree = "<group>"; };
+		E6C01F0A81326BC4FBB363365D8EB05D /* BTSnappy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTSnappy.release.xcconfig; sourceTree = "<group>"; };
+		EADB7664FD72CEC732AF057E3E586CFB /* BTSnappy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BTSnappy-Info.plist"; sourceTree = "<group>"; };
+		EE23D776FDC1916EAA0E0A61F7FD1533 /* BTSnappy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTSnappy.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		281F69109BA82C2C7F5D301C8EB71753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34E82FBCC6345586B62EF386703BC33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76035F0AC3082AF6D9E8E2E23D4BB911 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9DAF21003FDE43616F475F976FC4B24D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5B7D0B2E1FF6B79205E3017A5B31DA2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				980E38C70453EC25133F372229854497 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,28 +108,21 @@
 		0DE0DF8521C8988F3566203A919FF535 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F01A5B266CC46368874C96DD3D6ADAA8 /* BTSnappy */,
+				25A6080B920E1DF4FBE3F2EE8A00C800 /* BTSnappy */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		3416D50A537E179857EB5547DD67D2E4 /* snappy-c */ = {
+		25A6080B920E1DF4FBE3F2EE8A00C800 /* BTSnappy */ = {
 			isa = PBXGroup;
 			children = (
-				595D0AB769C87A52AF09A3489089F87D /* config.h */,
-				13C66F95E50ED0EBA53DBE79AB96F6CB /* snappy.cc */,
-				A83D407273E8261385A1165B90E204D3 /* snappy.h */,
-				8FC0DC81D899BC5D05B42B8BE2E516BF /* snappy-c.cc */,
-				CD0FC8C8D09B0D68F3939A80A2930FEC /* snappy-c.h */,
-				EB0E07731C898AEA850E4C2F2CD70890 /* snappy-internal.h */,
-				1DDD812B769F5F7C41E681F587C4214B /* snappy-sinksource.cc */,
-				1A1CEA585BB419652622799B4AC8803E /* snappy-sinksource.h */,
-				23E46E09BE7A85DA20144EF1AB67BA35 /* snappy-stubs-internal.cc */,
-				BC387E7EF3285A36DA34F178D9C51237 /* snappy-stubs-internal.h */,
-				A7C82EF45BF1503AF87C0AB1735CBA33 /* snappy-stubs-public.h */,
+				D09F7CA4E15D6D71C65C7B408C170880 /* Classes */,
+				A3352A47B4CB6C2EBBB558607AEADB0E /* Pod */,
+				E959DC2CB8408051A220D1AF6BDDD216 /* snappy-c */,
+				E7919444DA51C4F7B8400A1D403A7482 /* Support Files */,
 			);
-			name = "snappy-c";
-			path = "BTSnappy/snappy-c";
+			name = BTSnappy;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		367D7D49AFD955681101AF322847EC09 /* Pods-BTSnappy_Example */ = {
@@ -143,32 +142,6 @@
 			path = "Target Support Files/Pods-BTSnappy_Example";
 			sourceTree = "<group>";
 		};
-		4C4DFB8C66D66744D3914EE8B0AE051D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D5CF23C22982B3C79A35B3D418559100 /* BTSnappy.modulemap */,
-				7B0B068DDA189F863DADEC61F2EA57FE /* BTSnappy-dummy.m */,
-				B2AF065401E63129048D158F6D9798C1 /* BTSnappy-Info.plist */,
-				4E41EF8C095ED01AF9E83A06EB6DEA83 /* BTSnappy-prefix.pch */,
-				27F01D9DA0919DC25BAFB49E7608C863 /* BTSnappy-umbrella.h */,
-				D69248FDBB73DFC89C170F8A2AE713FF /* BTSnappy.debug.xcconfig */,
-				C69117973D47F174D131F4A9ADDE0C88 /* BTSnappy.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BTSnappy";
-			sourceTree = "<group>";
-		};
-		6E6540FC7A1ADF8C782CAC33133EA3B2 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				1C31FA29D692D33368C5C5D268AB85D0 /* ReplaceMe.m */,
-				41A6C3953704AF0E71B4EA9D8E948800 /* Snappy-ObjC.h */,
-				0067DE9A6B2FBFB2D3AFC1B6071D01BD /* Snappy-ObjC.m */,
-			);
-			name = Classes;
-			path = BTSnappy/Classes;
-			sourceTree = "<group>";
-		};
 		8168D8CB8AAAC38693B599041451748D /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,12 +151,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A87ED966C6856DE7BF16A9E468EECF2 /* Pod */ = {
+		A3352A47B4CB6C2EBBB558607AEADB0E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2F7EB0C1627140FF083DAA863F4AB244 /* BTSnappy.podspec */,
-				8052EBC5119732E9BF6672E780344E3A /* LICENSE */,
-				68E07A9CABB755EDCA62820322AE9A3F /* README.md */,
+				32121FD0508053582412F40B2BB79056 /* BTSnappy.podspec */,
+				1FBEED8EDE788EA4A6AF330FA8358C86 /* LICENSE */,
+				AFED20EB4AD3842173AE23B7987F1C09 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -207,6 +180,17 @@
 			);
 			sourceTree = "<group>";
 		};
+		D09F7CA4E15D6D71C65C7B408C170880 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04AA2A384216CD862C15F96D53C491D2 /* ReplaceMe.m */,
+				8B66B39FDC98F47282943197A157658D /* Snappy-ObjC.h */,
+				A4EE7F72752F9F455246109AAD3DB8C1 /* Snappy-ObjC.m */,
+			);
+			name = Classes;
+			path = BTSnappy/Classes;
+			sourceTree = "<group>";
+		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,16 +199,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F01A5B266CC46368874C96DD3D6ADAA8 /* BTSnappy */ = {
+		E7919444DA51C4F7B8400A1D403A7482 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6E6540FC7A1ADF8C782CAC33133EA3B2 /* Classes */,
-				9A87ED966C6856DE7BF16A9E468EECF2 /* Pod */,
-				3416D50A537E179857EB5547DD67D2E4 /* snappy-c */,
-				4C4DFB8C66D66744D3914EE8B0AE051D /* Support Files */,
+				CC36D9D67F1EACA3E9E5E05B97951A5D /* BTSnappy.modulemap */,
+				292921E22A32FCCFDC46C35951E501B6 /* BTSnappy-dummy.m */,
+				EADB7664FD72CEC732AF057E3E586CFB /* BTSnappy-Info.plist */,
+				6C04889D6AA467580D229EEF06EEF381 /* BTSnappy-prefix.pch */,
+				4E367E298548471818F0D45A246F612A /* BTSnappy-umbrella.h */,
+				EE23D776FDC1916EAA0E0A61F7FD1533 /* BTSnappy.debug.xcconfig */,
+				E6C01F0A81326BC4FBB363365D8EB05D /* BTSnappy.release.xcconfig */,
 			);
-			name = BTSnappy;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BTSnappy";
+			sourceTree = "<group>";
+		};
+		E959DC2CB8408051A220D1AF6BDDD216 /* snappy-c */ = {
+			isa = PBXGroup;
+			children = (
+				DA1C24D10203C42044D59E9F7B285032 /* bench.c */,
+				C8D2C48F92AD297C2A2C6C39FAF1C6BF /* compat.h */,
+				50A59E5AB6C5F102517FBCC8DF50D399 /* fuzzer.c */,
+				C0DD155A3D0DEEB9FA56DE881297AC66 /* glue.c */,
+				75555E511F52CFE0826C5AEC943451DF /* map.c */,
+				957532BA30CACD789704B5D2178161E3 /* map.h */,
+				E0F79C4BD2315842B8ECDD42F587758F /* scmd.c */,
+				52C3230EFEE77C0C94C26B3A6A8FE217 /* sgverify.c */,
+				77C656BE832E452BE0E47D18DFF414CB /* snappy.c */,
+				D64D23B980A678FEC865EDF5A275E049 /* snappy.h */,
+				DFE46521CA470FE6D7C6CAE471E41DD2 /* snappy-int.h */,
+				B19A2958E02BF0C3A8A4891E2BCA703F /* util.c */,
+				89F45088CB07833DEE11AE867AA4F345 /* util.h */,
+				62F70F810D4B0F895FA8F291B5D43AFE /* verify.c */,
+			);
+			name = "snappy-c";
+			path = "BTSnappy/snappy-c";
 			sourceTree = "<group>";
 		};
 		F6753F5786041DA357A682F921876E98 /* Targets Support Files */ = {
@@ -238,19 +247,17 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		60C650C6278AA1FA8824C77E0C845C1C /* Headers */ = {
+		2F18524B8C0367127F59C1766164C90D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C524574D1F113D192471075EBBF6DDF8 /* BTSnappy-umbrella.h in Headers */,
-				17EB3E27D95F3AD6C60E2448D95A73D0 /* config.h in Headers */,
-				41055EC8CB661A953FC89AB734585930 /* snappy-c.h in Headers */,
-				0268669EF4435166100C0056FCE13314 /* snappy-internal.h in Headers */,
-				6F4E26D45C4A142F5EA16DE62F2FEEC1 /* Snappy-ObjC.h in Headers */,
-				E9D3FA1F8DF19475D662C0A5F55B8402 /* snappy-sinksource.h in Headers */,
-				1BB33B8CD4792799469E0E84376865F1 /* snappy-stubs-internal.h in Headers */,
-				683ADEDA3133145639ACF1E6B6CB6DA3 /* snappy-stubs-public.h in Headers */,
-				03900D11695DBEE7DCA30D0B98DA8DAC /* snappy.h in Headers */,
+				89FA9FCF7A0BE8E52D83A1C92F22D355 /* BTSnappy-umbrella.h in Headers */,
+				970B4AE25107880A09770B80ECBBB74A /* compat.h in Headers */,
+				ABE0F6417AF3EE9585789AB3EB9B549C /* map.h in Headers */,
+				494B80A84DD4D8EEA94FD3B344F4B6F5 /* snappy-int.h in Headers */,
+				5CEA27733DBA8D8514D38AA415B4D9A0 /* Snappy-ObjC.h in Headers */,
+				ABF237090B6F55C949B48E31D4D1FBE3 /* snappy.h in Headers */,
+				B9E365E5283A8C18BD5696C1A8FCBD5C /* util.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +293,12 @@
 		};
 		D79F32685484DD8208DA94155FF96586 /* BTSnappy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D98ABA6DA46B12239FBC4590BC3189BC /* Build configuration list for PBXNativeTarget "BTSnappy" */;
+			buildConfigurationList = FF646C1E23F566A0D61246816E6C7E2D /* Build configuration list for PBXNativeTarget "BTSnappy" */;
 			buildPhases = (
-				60C650C6278AA1FA8824C77E0C845C1C /* Headers */,
-				D18CF7EC55DB2753ADF7EAD4C01FEB31 /* Sources */,
-				C5B7D0B2E1FF6B79205E3017A5B31DA2 /* Frameworks */,
-				7B43437CD6E623801FB787A16CBB46D3 /* Resources */,
+				2F18524B8C0367127F59C1766164C90D /* Headers */,
+				23C7B36FCE27C6EB68B4DFBADC21D7C2 /* Sources */,
+				281F69109BA82C2C7F5D301C8EB71753 /* Frameworks */,
+				16BA6E1557BEFD9138DB9B256E30EF7F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -331,7 +338,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7B43437CD6E623801FB787A16CBB46D3 /* Resources */ = {
+		16BA6E1557BEFD9138DB9B256E30EF7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -348,17 +355,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D18CF7EC55DB2753ADF7EAD4C01FEB31 /* Sources */ = {
+		23C7B36FCE27C6EB68B4DFBADC21D7C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3D499BE3B6594F1DDEA3A3795D3A142 /* BTSnappy-dummy.m in Sources */,
-				9CA3F721956BD87FDDE9A6A831D18D5A /* ReplaceMe.m in Sources */,
-				9AFF38278361344C3539E693FBF20F00 /* snappy-c.cc in Sources */,
-				A1673886CDA4AE7D386FD9142E110F04 /* Snappy-ObjC.m in Sources */,
-				8858BC5C5847C986969C49538A696672 /* snappy-sinksource.cc in Sources */,
-				BC85478E200635B51A32FB531A4BBD96 /* snappy-stubs-internal.cc in Sources */,
-				41D16F1A16DEF89B56F77ADD303DF51E /* snappy.cc in Sources */,
+				D947807B926A05EFE20A2595081FF355 /* bench.c in Sources */,
+				236FFE921C98C39BB92B4A7A142434C6 /* BTSnappy-dummy.m in Sources */,
+				4D4CA782EB87EC828542D32DBE269B8B /* fuzzer.c in Sources */,
+				C33C2B95CCC5903EBFA41C02EBA646F5 /* glue.c in Sources */,
+				7D9A4C17C0E984D835EBA2DB1619C027 /* map.c in Sources */,
+				3161780C80DBE82BC356A6F367C2DA59 /* ReplaceMe.m in Sources */,
+				562EEE3BA0536A1F111B57DD1BCF8CCE /* scmd.c in Sources */,
+				590692FF633318AAEAD29A8F41B54AB8 /* sgverify.c in Sources */,
+				C56B4C274663F4C8655AD404906C6692 /* Snappy-ObjC.m in Sources */,
+				83D32F835D06C17A23A072ABBA745367 /* snappy.c in Sources */,
+				5A8DC808FD67D36EE276344E393F053E /* util.c in Sources */,
+				2790DA17F9982DB41D766E0600335B87 /* verify.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,69 +394,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0DFA0B306BF36BBBD0823584E172BA8B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C69117973D47F174D131F4A9ADDE0C88 /* BTSnappy.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BTSnappy/BTSnappy-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BTSnappy/BTSnappy-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BTSnappy/BTSnappy.modulemap";
-				PRODUCT_MODULE_NAME = BTSnappy;
-				PRODUCT_NAME = BTSnappy;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		13581518E8BF97CFDAE9D9B03082DF9F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D69248FDBB73DFC89C170F8A2AE713FF /* BTSnappy.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BTSnappy/BTSnappy-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BTSnappy/BTSnappy-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BTSnappy/BTSnappy.modulemap";
-				PRODUCT_MODULE_NAME = BTSnappy;
-				PRODUCT_NAME = BTSnappy;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -504,6 +453,37 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		59E1747C4107333391574CC2F3CD6529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE23D776FDC1916EAA0E0A61F7FD1533 /* BTSnappy.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BTSnappy/BTSnappy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BTSnappy/BTSnappy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BTSnappy/BTSnappy.modulemap";
+				PRODUCT_MODULE_NAME = BTSnappy;
+				PRODUCT_NAME = BTSnappy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		5D52766007B7B9182B1C35E65E12D998 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -636,6 +616,38 @@
 			};
 			name = Debug;
 		};
+		B8654E34D72116482EF41FD9B790C181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6C01F0A81326BC4FBB363365D8EB05D /* BTSnappy.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BTSnappy/BTSnappy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BTSnappy/BTSnappy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BTSnappy/BTSnappy.modulemap";
+				PRODUCT_MODULE_NAME = BTSnappy;
+				PRODUCT_NAME = BTSnappy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -657,11 +669,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D98ABA6DA46B12239FBC4590BC3189BC /* Build configuration list for PBXNativeTarget "BTSnappy" */ = {
+		FF646C1E23F566A0D61246816E6C7E2D /* Build configuration list for PBXNativeTarget "BTSnappy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13581518E8BF97CFDAE9D9B03082DF9F /* Debug */,
-				0DFA0B306BF36BBBD0823584E172BA8B /* Release */,
+				59E1747C4107333391574CC2F3CD6529 /* Debug */,
+				B8654E34D72116482EF41FD9B790C181 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

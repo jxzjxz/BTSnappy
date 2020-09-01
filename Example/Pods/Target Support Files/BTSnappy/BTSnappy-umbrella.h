@@ -10,13 +10,11 @@
 #endif
 #endif
 
-#import "config.h"
-#import "snappy-c.h"
-#import "snappy-internal.h"
-#import "snappy-sinksource.h"
-#import "snappy-stubs-internal.h"
-#import "snappy-stubs-public.h"
+#import "compat.h"
+#import "map.h"
+#import "snappy-int.h"
 #import "snappy.h"
+#import "util.h"
 #import "Snappy-ObjC.h"
 
 FOUNDATION_EXPORT double BTSnappyVersionNumber;
