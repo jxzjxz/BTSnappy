@@ -1,0 +1,16 @@
+PODS:
+  - BTSnappy (0.1.0)
+
+DEPENDENCIES:
+  - BTSnappy (from `../`)
+
+EXTERNAL SOURCES:
+  BTSnappy:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BTSnappy: 620d554b9c94f0087d78a190695a6760f5bd8181
+
+PODFILE CHECKSUM: daa9ae734c716ad07f49944f5131994e04a1650a
+
+COCOAPODS: 1.9.1

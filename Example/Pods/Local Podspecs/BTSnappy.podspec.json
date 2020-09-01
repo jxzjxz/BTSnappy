@@ -1,0 +1,30 @@
+{
+  "name": "BTSnappy",
+  "version": "0.1.0",
+  "summary": "A short description of BTSnappy.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jiaxuzhou/BTSnappy",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jiaxuzhou": "jiaxuzhou@joymason.cn"
+  },
+  "source": {
+    "git": "https://github.com/jiaxuzhou/BTSnappy.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "5.0",
+    "osx": "10.7"
+  },
+  "source_files": [
+    "BTSnappy/snappy-c/*.{h,c,cc}",
+    "BTSnappy/Classes/*.{h,m}"
+  ],
+  "xcconfig": {
+    "CC": "clang",
+    "CXX": "clang++"
+  }
+}
